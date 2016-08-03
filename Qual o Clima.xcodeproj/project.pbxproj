@@ -1,0 +1,297 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0CE90AFA1D516D8E00FA966F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CE90AF91D516D8E00FA966F /* AppDelegate.swift */; };
+		0CE90AFC1D516D8E00FA966F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CE90AFB1D516D8E00FA966F /* ViewController.swift */; };
+		0CE90AFF1D516D8E00FA966F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CE90AFD1D516D8E00FA966F /* Main.storyboard */; };
+		0CE90B011D516D8E00FA966F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CE90B001D516D8E00FA966F /* Assets.xcassets */; };
+		0CE90B041D516D8E00FA966F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CE90B021D516D8E00FA966F /* LaunchScreen.storyboard */; };
+		0CE90B0C1D516E6500FA966F /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0CE90B0B1D516E6500FA966F /* background.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0CE90AF61D516D8E00FA966F /* Qual o Clima.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Qual o Clima.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0CE90AF91D516D8E00FA966F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0CE90AFB1D516D8E00FA966F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0CE90AFE1D516D8E00FA966F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0CE90B001D516D8E00FA966F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0CE90B031D516D8E00FA966F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0CE90B051D516D8E00FA966F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0CE90B0B1D516E6500FA966F /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = background.jpg; path = ../../../../Desktop/background.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0CE90AF31D516D8E00FA966F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0CE90AED1D516D8E00FA966F = {
+			isa = PBXGroup;
+			children = (
+				0CE90AF81D516D8E00FA966F /* Qual o Clima */,
+				0CE90AF71D516D8E00FA966F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0CE90AF71D516D8E00FA966F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0CE90AF61D516D8E00FA966F /* Qual o Clima.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0CE90AF81D516D8E00FA966F /* Qual o Clima */ = {
+			isa = PBXGroup;
+			children = (
+				0CE90AF91D516D8E00FA966F /* AppDelegate.swift */,
+				0CE90AFB1D516D8E00FA966F /* ViewController.swift */,
+				0CE90AFD1D516D8E00FA966F /* Main.storyboard */,
+				0CE90B0B1D516E6500FA966F /* background.jpg */,
+				0CE90B001D516D8E00FA966F /* Assets.xcassets */,
+				0CE90B021D516D8E00FA966F /* LaunchScreen.storyboard */,
+				0CE90B051D516D8E00FA966F /* Info.plist */,
+			);
+			path = "Qual o Clima";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0CE90AF51D516D8E00FA966F /* Qual o Clima */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0CE90B081D516D8E00FA966F /* Build configuration list for PBXNativeTarget "Qual o Clima" */;
+			buildPhases = (
+				0CE90AF21D516D8E00FA966F /* Sources */,
+				0CE90AF31D516D8E00FA966F /* Frameworks */,
+				0CE90AF41D516D8E00FA966F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Qual o Clima";
+			productName = "Qual o Clima";
+			productReference = 0CE90AF61D516D8E00FA966F /* Qual o Clima.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0CE90AEE1D516D8E00FA966F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Iuri Menin";
+				TargetAttributes = {
+					0CE90AF51D516D8E00FA966F = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 0CE90AF11D516D8E00FA966F /* Build configuration list for PBXProject "Qual o Clima" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0CE90AED1D516D8E00FA966F;
+			productRefGroup = 0CE90AF71D516D8E00FA966F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0CE90AF51D516D8E00FA966F /* Qual o Clima */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0CE90AF41D516D8E00FA966F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CE90B041D516D8E00FA966F /* LaunchScreen.storyboard in Resources */,
+				0CE90B0C1D516E6500FA966F /* background.jpg in Resources */,
+				0CE90B011D516D8E00FA966F /* Assets.xcassets in Resources */,
+				0CE90AFF1D516D8E00FA966F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0CE90AF21D516D8E00FA966F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CE90AFC1D516D8E00FA966F /* ViewController.swift in Sources */,
+				0CE90AFA1D516D8E00FA966F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0CE90AFD1D516D8E00FA966F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0CE90AFE1D516D8E00FA966F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0CE90B021D516D8E00FA966F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0CE90B031D516D8E00FA966F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0CE90B061D516D8E00FA966F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0CE90B071D516D8E00FA966F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0CE90B091D516D8E00FA966F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Qual o Clima/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.iuri.Qual-o-Clima";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0CE90B0A1D516D8E00FA966F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Qual o Clima/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.iuri.Qual-o-Clima";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0CE90AF11D516D8E00FA966F /* Build configuration list for PBXProject "Qual o Clima" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0CE90B061D516D8E00FA966F /* Debug */,
+				0CE90B071D516D8E00FA966F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0CE90B081D516D8E00FA966F /* Build configuration list for PBXNativeTarget "Qual o Clima" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0CE90B091D516D8E00FA966F /* Debug */,
+				0CE90B0A1D516D8E00FA966F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0CE90AEE1D516D8E00FA966F /* Project object */;
+}
